@@ -1,0 +1,29 @@
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Console.Test.exe.config
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Console.Test.exe
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Console.Test.pdb
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Bender.dll
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Entity.Abstract.dll
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Flexo.dll
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\SimpleConfig.dll
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Entity.Abstract.pdb
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Bender.pdb
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Flexo.pdb
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\SimpleConfig.pdb
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.csprojResolveAssemblyReference.cache
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.exe
+C:\Users\Student_PC\Documents\Visual Studio 2015\Projects\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Console.Test.exe.config
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Console.Test.exe
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Console.Test.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Bender.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Entity.Abstract.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Flexo.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\SimpleConfig.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Entity.Abstract.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Bender.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\Flexo.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\SimpleConfig.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.csprojResolveAssemblyReference.cache
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.csproj.CoreCompileInputs.cache
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.exe
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.pdb

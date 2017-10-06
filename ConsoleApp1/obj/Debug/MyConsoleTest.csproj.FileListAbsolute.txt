@@ -1,0 +1,13 @@
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\obj\Debug\MyConsoleTest.csprojResolveAssemblyReference.cache
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\obj\Debug\MyConsoleTest.csproj.CoreCompileInputs.cache
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\Bender.dll
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\Flexo.dll
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\SimpleConfig.dll
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\Bender.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\Flexo.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\ConsoleApp1\bin\Debug\SimpleConfig.pdb
