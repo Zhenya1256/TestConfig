@@ -27,3 +27,10 @@ C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Deb
 C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.csproj.CoreCompileInputs.cache
 C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.exe
 C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\obj\Debug\BrainRingGame.Console.Test.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.BL.Impl.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Entity.Impl.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.BL.Abstract.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\SharpCompress.dll
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.BL.Impl.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.Entity.Impl.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.Console.Test\bin\Debug\BrainRingGame.BL.Abstract.pdb

@@ -1,7 +1,11 @@
 ﻿using BrainRingGame.BL.Abstract.Recources;
+using BrainRingGame.BL.Impl.Archiv;
 using BrainRingGame.Entity.Abstract.Common.Results;
 using BrainRingGame.Entity.Abstract.Component;
 using BrainRingGame.Entity.Abstract.Enums;
+using BrainRingGame.Entity.Impl.Common.Results;
+using BrainRingGame.Entity.Impl.Component;
+using System.IO;
 
 namespace BrainRingGame.BL.Impl.Recources
 {
@@ -9,13 +13,19 @@ namespace BrainRingGame.BL.Impl.Recources
     {
         public IDataResult<IStageComponent> GetComponent(DrawFileComponentType type)
         {
-            throw new System.NotImplementedException();
+            ComponentReader reader = new ComponentReader();
+
+            return reader.GetComponent(type);
         }
 
         public IResult ValidateComponent(DrawFileComponentType type)
         {
-            throw new System.NotImplementedException();
+            ComponentValidator valid = new ComponentValidator();
+
+            return valid.ValidateComponent(type);
         }
+
+        
 
         public IDataResult<IStageComponent> GetRootWithChildInstance()
         {

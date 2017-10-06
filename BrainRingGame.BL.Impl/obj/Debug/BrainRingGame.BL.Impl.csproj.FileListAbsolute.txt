@@ -29,3 +29,4 @@ C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.BL.Impl\obj\Debug\Br
 C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.BL.Impl\obj\Debug\BrainRingGame.BL.Impl.csproj.CoreCompileInputs.cache
 C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.BL.Impl\obj\Debug\BrainRingGame.BL.Impl.dll
 C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.BL.Impl\obj\Debug\BrainRingGame.BL.Impl.pdb
+C:\Users\Евгений\Desktop\BrainRingGame\BrainRingGame.BL.Impl\bin\Debug\SharpCompress.dll

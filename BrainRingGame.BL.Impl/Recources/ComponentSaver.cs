@@ -12,8 +12,6 @@ namespace BrainRingGame.BL.Impl.Recources
 {
     public class ComponentSaver  : IComponentSaver
     {
-        
-
         public IResult SaveComponents()
         {
             try

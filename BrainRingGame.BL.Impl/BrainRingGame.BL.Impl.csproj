@@ -33,6 +33,9 @@
     <Reference Include="Bender">
       <HintPath>..\packages\Bender.3.0.1.0\lib\Bender.dll</HintPath>
     </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>D:\MyProject_C#\MyVrsionWpfGame-master\WpfGame\bin\Debug\SharpCompress.dll</HintPath>
+    </Reference>
     <Reference Include="SimpleConfig">
       <HintPath>..\packages\SimpleConfig.1.0.37.0\lib\SimpleConfig.dll</HintPath>
     </Reference>
@@ -47,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Archiv\SaveTempFile.cs" />
+    <Compile Include="Archiv\ValidataArchive.cs" />
     <Compile Include="GameProcessors\GameInitializeProcessor.cs" />
     <Compile Include="GameProcessors\StateChangeProcessor.cs" />
     <Compile Include="Handlers\TeamGroupHandler.cs" />
