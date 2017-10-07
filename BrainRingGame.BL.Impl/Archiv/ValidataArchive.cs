@@ -221,8 +221,8 @@ namespace BrainRingGame.BL.Impl.Archiv
             return result;
 
         }
-
-        public IResult SubStageItemTopicsFile(string pathArchiv)
+        //
+        public IResult SubStageFile(string pathArchiv)
         {
             List<string> stagesArchiv = Directory.GetDirectories
               (pathArchiv).ToList();
@@ -255,6 +255,16 @@ namespace BrainRingGame.BL.Impl.Archiv
                         //MessageHolder
                         result.Message += stage.StageNumber + " Sub " + (i + 1) + "  // ";
                         result.Success = false;
+
+                        return result;
+                    }
+                    if (!ValidateImage(topicThems[0]))
+                    {
+                        //MessageHolder
+                        result.Message = stage.StageNumber + " Sub " + (i + 1) + "Картинка";
+                        result.Success = false;
+
+                        return result;
                     }
 
                     i++;
@@ -315,7 +325,7 @@ namespace BrainRingGame.BL.Impl.Archiv
             return result;
         }
 
-        public IResult QuestionFile(string pathArchiv)
+        public IResult QuestionTopicFile(string pathArchiv)
         {
             List<string> stagesArchiv = Directory.GetDirectories
             (pathArchiv).ToList();
@@ -358,10 +368,11 @@ namespace BrainRingGame.BL.Impl.Archiv
                             List<string> topicQuestion =
                                 Directory.GetFiles(s).ToList();
 
-                            if (topicQuestion.Count != 0)
+                            result = ValideTxtorImage(topicQuestion);
+
+                            if (!result.Success)
                             {
-                                result.Success = false;
-                                result.Message = "question";
+                                return result;
                             }
                         }
 
@@ -373,7 +384,7 @@ namespace BrainRingGame.BL.Impl.Archiv
             return result;
         }
 
-        public IResult QuestionItemFile(string pathArchiv)
+        public IResult QuestionFile(string pathArchiv)
         {
             List<string> stagesArchiv = Directory.GetDirectories
            (pathArchiv).ToList();
@@ -418,12 +429,13 @@ namespace BrainRingGame.BL.Impl.Archiv
 
                             List<string> files = Directory.GetFiles(topicQuestion[0]).ToList();
 
-                            if (files.Count != 0)
-                            {
-                                result.Success = false;
-                                result.Message = "question";
-                            }
+                            result = ValidateImageMp3Txt(files);
 
+                            if (!result.Success)
+                            {
+                                result.Message += "  " + stage.StageNumber + "  sub  " + (i + 1) + "top" + (k + 1);
+                                return result;
+                            }
                         }
 
                     }
@@ -431,6 +443,109 @@ namespace BrainRingGame.BL.Impl.Archiv
                     i++;
                 }
             }
+
+            return result;
+        }
+
+        private bool ValidateImage(string path)
+        {
+            try
+            {
+                Image image = Image.FromFile(path);
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+
+            return true;
+        }
+
+        private Result ValideTxtorImage(List<string> topicQuestion)
+        {
+            Result result = new Result() { Success = true };
+
+            if (topicQuestion.Count != 0 && topicQuestion.Count < 3)
+            {
+                result.Success = false;
+                result.Message = "question";
+
+                return result;
+            }
+            foreach (var format in topicQuestion)
+            {
+                if (!format.Contains(".txt"))
+                {
+                    if (!ValidateImage(format))
+                    {
+                        result.Success = false;
+                        result.Message = "image";
+
+                        return result;
+                    }
+                }
+            }
+            int txt = 0;
+            foreach (var format in topicQuestion)
+            {
+                if (format.Contains(".txt"))
+                {
+                    txt++;
+                }
+            }
+
+            if (txt == 2)
+            {
+                result.Success = false;
+                result.Message = "image";
+
+                return result;
+            }
+
+            return result;
+
+        }
+     
+        private Result ValidateImageMp3Txt(List<string> topicQuestion)
+        {
+            Result result = new Result() { Success = true };
+
+            if (topicQuestion.Count == 0)
+            {
+                result.Success = false;
+                result.Message = "EmtyFileContent1";
+
+                return result;
+            }
+            bool isTxt = false;
+            bool isImage = false;
+            bool isMp3 = false;
+
+            foreach (var s in topicQuestion)
+            {
+                if (s.Contains(".txt"))
+                {
+                    isTxt = true;
+                }
+                else if (s.Contains(".mp3"))
+                {
+                    isMp3 = true;
+                }
+                else
+                {
+                    isImage = true;
+                }
+            }
+
+            if(!isTxt && isImage)
+            {
+                result.Success = false;
+                result.Message = "AddText";
+
+                return result;
+            }
+            
 
             return result;
         }

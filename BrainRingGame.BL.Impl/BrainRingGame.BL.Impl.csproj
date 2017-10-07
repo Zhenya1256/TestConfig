@@ -50,6 +50,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Archiv\BuildGame.cs" />
     <Compile Include="Archiv\SaveTempFile.cs" />
     <Compile Include="Archiv\ValidataArchive.cs" />
     <Compile Include="GameProcessors\GameInitializeProcessor.cs" />

@@ -31,7 +31,7 @@ namespace BrainRingGame.BL.Impl.Recources
                     break;
                 case DrawFileComponentType.SubStage:
                     IResult resultSubFiles = 
-                        validataArchive.SubStageItemTopicsFile(path);
+                        validataArchive.SubStageFile(path);
                     result.Message = resultSubFiles.Message;
 
                     break;
@@ -42,7 +42,7 @@ namespace BrainRingGame.BL.Impl.Recources
                     break;
                 case DrawFileComponentType.Topic:
                     IResult resultQuestionFiles =
-                       validataArchive.QuestionItemFile(path);
+                       validataArchive.QuestionTopicFile(path);
                     result.Message = resultQuestionFiles.Message;
                     break;
             }

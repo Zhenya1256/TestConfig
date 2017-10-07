@@ -3,6 +3,7 @@ using BrainRingGame.Entity.Abstract.Common.Results;
 using BrainRingGame.Entity.Abstract.Component;
 using BrainRingGame.Entity.Abstract.Enums;
 using BrainRingGame.Entity.Impl.Common.Results;
+using BrainRingGame.Entity.Impl.Component;
 
 namespace BrainRingGame.BL.Impl.Recources
 {
@@ -21,6 +22,9 @@ namespace BrainRingGame.BL.Impl.Recources
                 switch (type)
                 {
                     case DrawFileComponentType.Stage:
+                        IStageComponent stage = new StageComponent();
+                        stage.SubComponents = new System.Collections.Generic.List<IStageComponent>();
+
                         break;
                     case DrawFileComponentType.SubStage:
 
